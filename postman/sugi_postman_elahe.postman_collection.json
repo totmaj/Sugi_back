@@ -1,0 +1,298 @@
+{
+	"info": {
+		"_postman_id": "58ca907e-354e-44f8-9820-dd56f75a8818",
+		"name": "sugi_postman_elahe",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36641771"
+	},
+	"item": [
+		{
+			"name": "books",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsImtpZCI6InNwdnJyTUo3NXBtVXFMVFciLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL21oeXBvZndmcXd0eGVqaXdmbHliLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI1MTRlOGZjOC1lNjk2LTRlMjgtOGQ2ZS05NzgxZDE1ODI0YjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzMwMTk0Njg3LCJpYXQiOjE3MzAxOTEwODcsImVtYWlsIjoiZWxhaGUudG90bWFqQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzMwMTkxMDg3fV0sInNlc3Npb25faWQiOiJjZWViOWJjYy01Mjk1LTRkOWQtYWJjOS0yYzYxYWI0Y2I2YTEiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.47D7dpZb-H9ei6ZIt5qTGrDSTGgAYoAyue5_DQI101w",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://mhypofwfqwtxejiwflyb.supabase.co/functions/v1/sugi/books?page=1&pageSize=5&author_id=1000&sortby_published_date=asc",
+					"protocol": "https",
+					"host": [
+						"mhypofwfqwtxejiwflyb",
+						"supabase",
+						"co"
+					],
+					"path": [
+						"functions",
+						"v1",
+						"sugi",
+						"books"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "pageSize",
+							"value": "5"
+						},
+						{
+							"key": "author_id",
+							"value": "1000"
+						},
+						{
+							"key": "sortby_published_date",
+							"value": "asc",
+							"description": "asc,desc"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "books",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsImtpZCI6InNwdnJyTUo3NXBtVXFMVFciLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL21oeXBvZndmcXd0eGVqaXdmbHliLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI1MTRlOGZjOC1lNjk2LTRlMjgtOGQ2ZS05NzgxZDE1ODI0YjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzMwMTk0Njg3LCJpYXQiOjE3MzAxOTEwODcsImVtYWlsIjoiZWxhaGUudG90bWFqQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzMwMTkxMDg3fV0sInNlc3Npb25faWQiOiJjZWViOWJjYy01Mjk1LTRkOWQtYWJjOS0yYzYxYWI0Y2I2YTEiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.47D7dpZb-H9ei6ZIt5qTGrDSTGgAYoAyue5_DQI101w",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://mhypofwfqwtxejiwflyb.supabase.co/functions/v1/sugi/books?page=1&pageSize=5&author_id=1000&sortby_published_date=asc",
+							"protocol": "https",
+							"host": [
+								"mhypofwfqwtxejiwflyb",
+								"supabase",
+								"co"
+							],
+							"path": [
+								"functions",
+								"v1",
+								"sugi",
+								"books"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "5"
+								},
+								{
+									"key": "author_id",
+									"value": "1000"
+								},
+								{
+									"key": "sortby_published_date",
+									"value": "asc",
+									"description": "asc,desc"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 29 Oct 2024 09:08:50 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "256"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-Ray",
+							"value": "8da205f35b0e2851-DFW"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-deno-execution-id",
+							"value": "85a49e00-7546-4b48-b791-a8434ac04e89"
+						},
+						{
+							"key": "x-sb-edge-region",
+							"value": "us-east-1"
+						},
+						{
+							"key": "x-served-by",
+							"value": "supabase-edge-runtime"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"created_at\": \"2024-10-29T08:43:47.857032+00:00\",\n            \"title\": \"elahe_book_1\",\n            \"price\": 5000,\n            \"author_id\": 1000,\n            \"published_date\": \"2005-01-05T08:43:15+00:00\"\n        },\n        {\n            \"id\": 2,\n            \"created_at\": \"2024-10-29T08:44:39.220008+00:00\",\n            \"title\": \"elahe_book_2\",\n            \"price\": 8000,\n            \"author_id\": 1000,\n            \"published_date\": \"2016-11-29T08:47:21+00:00\"\n        },\n        {\n            \"id\": 3,\n            \"created_at\": \"2024-10-29T08:45:15.91754+00:00\",\n            \"title\": \"elahe_book_3\",\n            \"price\": 120000,\n            \"author_id\": 1000,\n            \"published_date\": \"2023-03-29T08:45:04+00:00\"\n        }\n    ],\n    \"totalCount\": null,\n    \"currentPage\": 1,\n    \"pageSize\": 5\n}"
+				}
+			]
+		},
+		{
+			"name": "getToken",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"elahe.totmaj@gmail.com\",\"password\":\"123456\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://mhypofwfqwtxejiwflyb.supabase.co/functions/v1/sugi/auth/token",
+					"protocol": "https",
+					"host": [
+						"mhypofwfqwtxejiwflyb",
+						"supabase",
+						"co"
+					],
+					"path": [
+						"functions",
+						"v1",
+						"sugi",
+						"auth",
+						"token"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "getToken",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"username\":\"elahe.totmaj@gmail.com\",\"password\":\"123456\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://mhypofwfqwtxejiwflyb.supabase.co/functions/v1/sugi/auth/token",
+							"protocol": "https",
+							"host": [
+								"mhypofwfqwtxejiwflyb",
+								"supabase",
+								"co"
+							],
+							"path": [
+								"functions",
+								"v1",
+								"sugi",
+								"auth",
+								"token"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Tue, 29 Oct 2024 08:38:07 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "553"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-Ray",
+							"value": "8da1d8f46e513064-DFW"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "x-deno-execution-id",
+							"value": "fa69fdb9-188f-45d6-85d0-6bedd3270d85"
+						},
+						{
+							"key": "x-sb-edge-region",
+							"value": "us-east-1"
+						},
+						{
+							"key": "x-served-by",
+							"value": "supabase-edge-runtime"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsImtpZCI6InNwdnJyTUo3NXBtVXFMVFciLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL21oeXBvZndmcXd0eGVqaXdmbHliLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiI1MTRlOGZjOC1lNjk2LTRlMjgtOGQ2ZS05NzgxZDE1ODI0YjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzMwMTk0Njg3LCJpYXQiOjE3MzAxOTEwODcsImVtYWlsIjoiZWxhaGUudG90bWFqQGdtYWlsLmNvbSIsInBob25lIjoiIiwiYXBwX21ldGFkYXRhIjp7InByb3ZpZGVyIjoiZW1haWwiLCJwcm92aWRlcnMiOlsiZW1haWwiXX0sInVzZXJfbWV0YWRhdGEiOnt9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzMwMTkxMDg3fV0sInNlc3Npb25faWQiOiJjZWViOWJjYy01Mjk1LTRkOWQtYWJjOS0yYzYxYWI0Y2I2YTEiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.47D7dpZb-H9ei6ZIt5qTGrDSTGgAYoAyue5_DQI101w\"\n}"
+				}
+			]
+		}
+	]
+}
